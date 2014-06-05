@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Reload tabs",
+  "version": "1.0",
+  "description": "Reload all of the current window's tabs.",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["reload.js"],
+    "persistent": false
+  },
+  
+  "permissions": [
+  	"tabs"
+  ]
+}
